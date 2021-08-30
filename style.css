@@ -1,0 +1,890 @@
+body{
+	margin: 0;
+	font-family: Montserrat;
+}
+
+.cont{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+	text-decoration: none;
+	color: inherit;
+}
+
+nav{
+	padding: 28px 0;
+	box-shadow:0px 4px 30px rgba(0, 0, 0, 0.13);
+}
+
+img{
+	position: relative;
+	z-index: 0;
+}
+
+button:hover{
+cursor: pointer;
+}
+button:focus{
+	outline: none;
+}
+
+.op{
+	top: 0;
+	display: inline-block;
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+
+.headerlogo{
+	font-family: MuseoSansCyrl-500;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #757575;
+	margin-right: 60px;
+}
+
+.closebutton{
+	position: absolute;
+	border: 0;
+	background-color: inherit;
+	left: 85%;
+}
+
+.headerlinks{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #222222;
+	margin-left: 27px;
+	transition: 0.5s;
+}
+
+.headermob{
+	padding: 30px 0;
+	position: absolute;
+	width: 95.9%;
+	background-color: #FFFFFF;
+	border-radius: 15px;
+	z-index: 11;
+}
+
+
+.mobheaderlinks{
+	display: inline-block;
+	position: relative;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 50px;
+	text-transform: uppercase;
+	color: #222222;
+	width: 100%;
+	transition: 0.5s;
+	text-align: center;
+	top: 15px;
+	bottom: 15px;
+}
+
+
+.headerlinks:hover{
+	color: #65BDD9;
+}
+
+.headermob:hover{
+	color: #65BDD9;
+}
+
+.userico{
+	height: 23px;
+	width: 23px;
+	top: 6px;
+	position: relative;
+	margin-left: 50px;
+	margin-right: 5px;
+}
+
+.menubutton{
+	display: none;
+}
+
+.loginlink1{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #222222;
+
+}
+
+.loginlink2{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #222222;
+}
+
+.link1{
+	margin-left: 70px;
+}
+
+.tg{
+	position: relative;
+	top: 10px;
+}
+
+.wa{
+	position: relative;
+	top: 12px;
+}
+
+.mail{
+	position: relative;
+	top: 8px;
+}
+
+.bread{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-decoration-line: underline;
+color: #65BDD9;
+padding-right: 10px;
+}
+
+.breadnow{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #222222;
+padding-left: 10px;
+}
+
+.breadcrumbs{
+	margin-top: 30px;
+}
+
+h1{
+	position: relative;
+	top: 47px;
+	font-family: MuseoSansCyrl-700;
+	font-style: normal;
+	font-size: 38px;
+	line-height: 48px;
+	text-transform: uppercase;
+	color: #222222;
+}
+
+h2{
+	position: relative;
+	font-family: Montserrat;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 34px;
+	line-height: 48px;
+	text-transform: uppercase;
+	color: #222222;
+	left: 30px;
+	margin-top: -12px;
+	padding-right: 150px;
+	margin-bottom: 2px;
+}
+
+
+.blocktitle{
+	position: relative;
+	left: 30px;
+	display: block;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 16px;
+	color: #222222;
+	padding-right: 20px;
+	margin-bottom: 2px;
+	margin-top: 0;
+}
+
+.blocktext1{
+	position: relative;
+	left: 30px;
+	display: block;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 14px;
+	color: #222222;
+	padding-right: 20px;
+	margin-bottom: 2px;
+	margin-top: 0;
+}
+
+.blocktext2{
+	position: relative;
+	left: 30px;
+	display: block;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 14px;
+	color: #222222;
+	padding-right: 40px;
+	margin-bottom: 2px;
+	margin-top: 0;
+}
+
+.blockimg{
+	width: 60%;
+	margin-left: 20%;
+	border-radius: 12px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.mainblock{
+	margin-top: 73px;
+}
+
+.sidebar{
+	float: left;
+	width: 270px;
+}
+
+.cards{
+	float: right;
+	width: 900px;
+}
+
+.section{
+	height: 63px;
+	padding-left: 18px;
+	padding-right: 13px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #222222;
+	background-color: #ECECEC;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	display: table;
+	width:239px;
+	transition: 0.5s;
+}
+
+.blogcards{
+	margin-top: 10em;
+}
+
+.blockh2{
+	margin-bottom: 5px;
+}
+
+
+.section1{
+	height: 63px;
+	padding-left: 18px;
+	padding-right: 13px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #222222;
+	background-color: #ECECEC;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	display: table;
+	width:239px;
+	transition: 0.5s;
+}
+
+
+.sectionbutton{
+	position: relative;
+	top: 22px;
+	margin-left: -10px;
+	display: none;
+}
+
+.sectiontext{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.section:hover{
+	color: #F9F9F9;
+	background-color: #65BDD9;
+
+}
+
+.section1:hover{
+	color: #F9F9F9;
+	background-color: #65BDD9;
+
+}
+.card{
+	box-sizing: border-box;
+	width: 270px;
+	height: 290px;
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.13);
+	border-radius: 15px;
+	position: relative;
+	z-index: 1;
+
+}
+.img{
+	width: 270px;
+	height: 150px;
+}
+
+
+
+.card:hover{
+	cursor: pointer;
+	box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.13), 1px 1px 0 #65BDD9 inset, -1px -1px 0 #65BDD9 inset, 0px -1px 0 #65BDD9 inset, 1px 0px 0 #65BDD9 inset, -1px 1px 0 #65BDD9 inset;
+}
+
+.card:hover .img{
+	width: 99.2%;
+	margin-left: 0.45%;
+	margin-top: 0.3%;
+}
+
+
+.carddate{
+	position: relative;
+	left: 10px;
+	display: inline-block;
+	padding-top: 5px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+	color: #222222;
+}
+
+.cardtitle{
+	position: relative;
+	left: 10px;
+	display: inline-block;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 16px;
+	color: #222222;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	padding-right: 20px;
+}
+
+.cardtext{
+	position: relative;
+	left: 10px;
+	display: inline-block;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 14px;
+	color: #222222;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	padding-right: 20px;
+}
+
+#sectionnow{
+	display: none;
+}
+
+.cardlink{
+	position: relative;
+	left: 10px;
+	display: inline-block;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 11px;
+	line-height: 14px;
+	text-decoration-line: underline;
+	color: #65BDD9
+}
+
+.pages{
+	position: relative;
+	top: 12px;
+	margin: 0 auto;
+	width: 340px;
+}
+
+.pageprev{
+	margin-right: 11px;
+	padding: 10px 14px;
+	display: inline-block;
+	background: #FFFFFF;
+	border: 1px solid #F9F9F9;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.13);
+	max-width: 38px;
+	max-height: 38px;
+	border-radius: 50px;
+}
+
+.pagenext{
+	margin-left: 31px;
+	padding: 10px 15px;
+	display: inline-block;
+	background: #FFFFFF;
+	border: 1px solid #F9F9F9;
+	box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.13);
+	max-width: 38px;
+	max-height: 38px;
+	border-radius: 50px;
+}
+
+.page{
+	margin-left: 25px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	color: #222222;
+	transition: 0.5s;
+}
+
+.page1{
+	margin-left: 25px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	color: #222222;
+}
+
+.page:hover{
+	color: #65BDD9;
+}
+
+#sectionnow:hover{
+	cursor: pointer;
+}
+
+.pagesbutton{
+	display: none;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	color: #FFFFFF;
+	background-color: #65BDD9;
+	border-radius: 250px;
+	border: 0;
+	padding: 14px 51px;
+	width: 200px;
+	height: 53px;
+}
+
+.dn{
+	display: none;
+}
+
+footer{
+	margin-top: 70px;
+	background-color: #F9F9F9;
+}
+
+.navfooter{
+	padding-top: 75px;
+	padding-bottom: 95px;
+	box-shadow: none;
+}
+
+.footerlogo{
+	font-family: MuseoSansCyrl-500;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #757575;
+	margin-right: 40px;
+}
+
+.footerlinks{
+	display: inline-block;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #222222;
+	margin-left: 27px;
+	position: relative;
+	bottom:2px;
+	transition: 0.5s;
+}
+
+.footerlinks:hover{
+	color: #65BDD9;
+}
+
+.footerlink1{
+	margin-left: 65px;
+}
+
+.conf{
+	position: relative;
+	top: 15px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	text-decoration-line: underline;
+	color: #222222;
+	float: right;
+}
+
+.copy{
+	padding-top: 16px;
+	padding-bottom: 17px;
+	background-color: #ECECEC;
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #222222;
+}
+
+.linkblock{
+	display: inline-block;
+}
+
+.loginblock{
+	display: inline-block;
+}
+
+.db{
+display: block;
+}
+
+.menuline{
+	margin-top: 30px;
+	margin-left: 10%;
+	width: 80%;
+	height: 1px;
+	background-color: #E0E0E0;
+}
+
+@media all and (max-width: 720px){
+	body{
+		max-width: 720px;
+		overflow-x: hidden;
+	}
+	
+.sectionbutton{
+	display: inline-block;
+}
+
+#sectionnow{
+	display: table;
+}
+
+#section1{
+	display: none;
+}
+
+.headerlinks{
+	display: none;
+}
+
+.pagesbutton{
+	display: inline-block;
+	margin-left: 35%;
+}
+
+.cont{
+	max-width: 100%;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.linkblock{
+	position: absolute;
+	top: 65px;
+	right:15px;
+}
+
+.loginblock{
+	position: absolute;
+	right: 15px;
+	top: 30px;
+}
+
+nav{
+	padding-top: 35px;
+	height:100px;
+}
+
+	.navfooter{
+		height:360px;
+	}
+
+.menubutton{
+	padding:0;
+	margin-top: 25px;
+	border: 0;
+	background-color: inherit;
+	display: block;
+}
+
+
+.menubutton:hover{
+	cursor: pointer;
+}
+
+.cards{
+	margin-top: 20px;
+	width: 100%;
+	float: left;
+}
+
+.carddate{
+	padding-top: 10px;
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+
+.cardtitle{
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+
+.cardtext{
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+
+.cardlink{
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+
+.card{
+	box-sizing: border-box;
+	width: 100%;
+	float: left;
+	margin-bottom: 30px;
+	margin-left: 0;
+	box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.13);
+	border-radius: 15px;
+	position: relative;
+	z-index: 1;
+	height: 400px;
+}
+
+.img{
+	width: 100%;
+	height: 60%;
+}
+
+.footerlogo{
+	margin-bottom: 30px;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+.footerlinks{
+	margin-bottom: 20px;
+	margin-left: 0;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+.conf{
+	margin-top: 30px;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+.footerlink1{
+	margin-left: 42%;
+}
+
+.copy{
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	top: 40px;
+}
+
+.sidebar{
+	float: left;
+	width: 100%;
+}
+
+.section{
+	height: 63px;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #222222;
+	background-color: #ECECEC;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	display: table;
+	width:95%;
+	transition: 0.5s;
+}
+
+.section1{
+	height: 63px;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #222222;
+	background-color: #ECECEC;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	display: table;
+	width:95%;
+	transition: 0.5s;
+	display: none;
+}
+.db{
+display: table;
+}
+
+.card:hover .img{
+	width: 99.6%;
+	margin-left: 0.2%;
+	margin-top: 0.1%;
+}
+
+.pages{
+	display: none;
+}
+
+.op{
+		height: 287em;
+}
+
+.mobcardnone{
+	display: none;
+}
+
+h2{
+	left: 5px;
+}
+
+.blocktitle{
+	left: 5px;
+
+}
+
+.blocktext1{
+	left: 5px;
+
+}
+
+.blocktext2{
+	left: 5px;
+
+}
+
+}
+
+@media all and (max-width: 480px){
+	body{
+		max-width: 480px;
+		overflow-x: hidden;
+	}
+	.pagesbutton{
+	display: inline-block;
+	margin-left: 28%;
+}
+
+.headermob{
+	width: 93.7%;
+}
+
+h2{
+	padding-right: 5px;
+}
+
+.card{
+	box-sizing: border-box;
+	width: 100%;
+	float: left;
+	margin-bottom: 30px;
+	margin-left: 0;
+	box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.13);
+	border-radius: 15px;
+	position: relative;
+	z-index: 1;
+	height: 450px;
+}
+
+.img{
+	width: 100%;
+}
+
+.footerlink1{
+	margin-left: 38.5%;
+}
+
+.copy{
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	top: 40px;
+}
+
+.navfooter{
+		height:280px;
+	}
+
+.op{
+	height: 318.5em;
+}
+
+}
